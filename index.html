@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="/images/Game Center Icon.jpeg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Color Game</title>
+  </head>
+  <body>
+    <main>
+      <div class="header">
+        <h1>
+          <span style="color: red">CO</span
+          ><span style="color: green">LOR</span>
+          <span style="color: purple">GUES</span><span>SING</span>
+          <span style="color: blue">GA</span
+          ><span style="color: brown">ME</span>
+        </h1>
+      </div>
+      <section>
+        <h3 data-textid="gameInstructions">Guess the Correct Color!!🟢🟡🔴</h3>
+        <div class="colorContainer" >
+          <div id="colorBox" data-textid="colorBox"></div>
+        <div id="colorOptions" data-textid="colorOption"></div>
+        </div>
+        
+
+        <div class="status">
+          <p>
+            STATUS:
+            <span
+              data-textid="gameStatus"
+              id="gameStatus"
+              style="font-weight: bolder;font-size: 1.5em;"
+            ></span>
+          </p>
+          <p>
+            SCORE:
+            <span
+              data-textid="score"
+              id="score"
+              style="color: red; font-weight: bolder"
+              >0</span
+            >
+          </p>
+        </div>
+        <button id="newGameButton" data-textid="newGameButton">RESTART</button>
+      </section>
+    </main>
+    <script src="/script.js"></script>
+  </body>
+</html>
