@@ -191,6 +191,7 @@ section {
   .status {
     width: 80vw;
     padding: 1vh;
+    flex-direction: column-reverse;
   }
   #colorOptions {
     gap: 3vw;
